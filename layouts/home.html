@@ -4,14 +4,14 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- $pubs := where (where site.RegularPages "Type" "pubs") "Lang" .Lang }}
+{{- $pubs := partial "sort_publications.html" (where (where site.RegularPages "Type" "pubs") "Lang" .Lang) }}
 {{- if site.Params.ShowOnlySelectedPubs }}
 {{- $pubs = where $pubs "Params.selected" true }}
 {{- end }}
 
 {{- if $pubs }}
 <div class="post-content">
-  <h3>{{- if site.Params.ShowOnlySelectedPubs -}}Selected Publications{{- else -}}Publications{{- end -}}</h3>
+  <h3>{{- if eq .Lang "zh" -}}代表性研究成果{{- else if site.Params.ShowOnlySelectedPubs -}}Selected Publications{{- else -}}Publications{{- end -}}</h3>
 </div>
 {{- range $pubs }}
   <article class="pub-entry">
@@ -28,7 +28,7 @@
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
       </div>
       {{- end }}
-      <div class="entry-content">
+      <div class="entry-content pub-authors">
       {{- partial "pub_entry_authors.html" . }}
       </div>
       <div class="entry-footer">

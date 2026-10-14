@@ -21,6 +21,11 @@
     -webkit-line-clamp: 5;
 }
 
+.pub-entry .pub-authors {
+    display: block;
+    -webkit-line-clamp: unset;
+}
+
 .venue {
     margin-top: 0.5em;
     color: #3498db;
@@ -86,7 +91,28 @@
     }
 }
 
-.home-info .buttons {
-    justify-content: flex-start;
+.home-info .home-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
     margin-top: 1rem;
+}
+
+.home-info .home-links .social-icons {
+    display: flex;
+    flex: none;
+}
+
+.home-info .home-links .buttons {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    min-width: 0;
+    margin-top: 0;
+}
+
+.home-info .home-links .button {
+    min-width: 0;
+    overflow-wrap: anywhere;
 }

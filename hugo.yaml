@@ -1,99 +1,94 @@
-title: My Homepage # (填写) 左上角以及浏览器Tab标题
+title: 安明
 theme: ["PaperMod"]
-#netlify用
-baseURL: "https://yaolu.netlify.app" # (填写) netlify有网址了之后填写即可
-enableRobotsTXT: true # 启用 robots.txt
-enableEmoji: true # 启用 emoji 支持
+enableRobotsTXT: true
+enableEmoji: true
 minify:
   disableXML: true
   minifyOutput: true
 
-# PaperMod 主题配置
 params:
-  author: "ylu" #(填写) 
-  description: "你的网站描述" #(填写) eg. phd/grad student researcher
-  
-  # 显示设置
-  ShowReadingTime: false      # 显示阅读时间
-  ShowShareButtons: false     # 显示分享按钮
-  ShowPostNavLinks: true     # 显示上一篇/下一篇
-  ShowBreadCrumbs: true      # 显示面包屑导航
-  ShowCodeCopyButtons: true  # 显示代码复制按钮
-  ShowWordCount: false        # 显示字数统计
-  displayFullLangName: true  # 显示语言全称
-  ShowOnlySelectedPubs: true # 首页仅展示 selected: true 的论文（设为 false 展示全部）
+  author: "Ming An"
+  description: "东南大学物理学院副教授、博士生导师，研究领域为凝聚态理论与计算。"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  displayFullLangName: true
+  ShowOnlySelectedPubs: true
+
+  # Optional components retained; the profile does not provide these details.
   homeInfoParams:
-    imageUrl: "/images/portrait.png"  # (填写) 头像路径，把图片放到static/images文件夹下并命名为portrait.png
-    imageWidth: 120
-    imageHeight: 120
+    imageUrl: "/images/anming.webp"
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: my portrait
-    # 可选按钮
     buttons:
-      - name: CV
-        url: /cv.pdf # (填写) 把图片放到static/文件夹下，命名为cv.pdf
-      - name: Google Scholar
-        url: "https://scholar.google.com/citations?user=xxxx" # (填写) 
-#      - name: ORCID
-#        url: "https://orcid.org/0000-0000-0000-0000"
-#      - name: GitHub
-#        url: "https://github.com/yourname"
-#      - name: Research Group Homepage
-#        url: "https://yourgroup.example.com"
-
-  # 可选图标链接
+  #     - name: CV
+  #       url: /cv.pdf
+  #     - name: Google Scholar
+  #       url: "https://scholar.google.com/citations?user=xxxx"
+  #     - name: ORCID
+  #       url: "https://orcid.org/0000-0000-0000-0000"
+  #    - name: GitHub
+  #      url: "https://github.com/NJAmorn"
+      - name: Research Group Homepage
+        url: "https://www.iqmlab.com"
+      - name: School Profile
+        url: "https://physics.seu.edu.cn/2023/1116/c29635a472414/page.htm"
   socialIcons:
-    - name: github
-      url: "https://github.com/yourname" # (填写) 
-      title: "GitHub"
-    - name: email
-      url: "mailto:your@email.com" # (填写) 
-      title: "email"
-#    - name: linkedin
-#      url: "https://www.linkedin.com/in/yourname"
-#      title: "LinkedIn"
-#    - name: x
-#      url: "https://x.com/yourname"
-#      title: "X"
-#    - name: instagram
-#      url: "https://www.instagram.com/yourname"
-#      title: "Instagram"
-#    - name: orcid
-#      url: "https://orcid.org/0000-0000-0000-0000"
-#      title: "ORCID"
-#    - name: googlescholar
-#      url: "https://scholar.google.com/citations?user=xxxx"
-#      title: "Google Scholar"
+     - name: github
+       url: "https://github.com/NJAmorn"
+       title: "GitHub"
+     - name: email
+       url: "mailto:amorn@seu.edu.cn"
+       title: "email"
+  #   - name: linkedin
+  #     url: "https://www.linkedin.com/in/yourname"
+  #     title: "LinkedIn"
+  #   - name: x
+  #     url: "https://x.com/yourname"
+  #     title: "X"
+  #   - name: instagram
+  #     url: "https://www.instagram.com/yourname"
+  #     title: "Instagram"
+  #   - name: orcid
+  #     url: "https://orcid.org/0000-0000-0000-0000"
+  #     title: "ORCID"
+  #   - name: googlescholar
+  #     url: "https://scholar.google.com/citations?user=xxxx"
+  #     title: "Google Scholar"
 
-# 语言设置、分语言的菜单设置
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
 disableDefaultLanguageRedirect: false
 languages:
   zh:
+    title: 安明
     contentDir: content/zh
     label: 中文
     locale: zh-CN
     weight: 1
     params:
+      author: 安明
       homeInfoParams:
-        # 中文首页标题  (填写) 
-        Title: "姓名 / Your Name"
-        # 中文首页自我介绍，markdown格式  (填写) 
+        Title: "安明 / Ming An"
         Content: |
-          (Example 1) I am a second-year PhD student at the University of California Merced advised by Prof. Ming-Hsuan Yang. My current research topics are in image and video generation. I’m interested in developing interactable visual intelligence.
-          
-          Before my PhD journey, I also worked on visual-language learning with Prof. Winston Hsu at National Taiwan University.
-    # 中文可选菜单
+          **副教授 · 博士生导师**  
+          东南大学物理学院
+
+          **研究方向：** 凝聚态理论计算、低维物质中的量子新效应、铁磁铁电等多功能材料设计。
     menu:
       main:
-#        - identifier: home
-#          name: 首页
-#          pageRef: /
-#          weight: 10
-        - identifier: posts
-          name: 文章
-          pageRef: /posts/
-          weight: 20
+        # - identifier: home
+        #   name: 首页
+        #   pageRef: /
+        #   weight: 10
+        # - identifier: posts
+        #   name: 文章
+        #   pageRef: /posts/
+        #   weight: 20
         - identifier: research
           name: 科研
           pageRef: /research/
@@ -102,37 +97,40 @@ languages:
           name: 论文
           pageRef: /pubs/
           weight: 40
-    #    - identifier: teaching
-    #      name: 教学
-    #      pageRef: /teaching/
-    #      weight: 50
+        # - identifier: teaching
+        #   name: 教学
+        #   pageRef: /teaching/
+        #   weight: 50
         - identifier: about
           name: 关于
           pageRef: /about/
           weight: 60
   en:
+    title: Ming An
     contentDir: content/en
     label: English
     locale: en-US
     weight: 2
     params:
+      author: Ming An
+      description: "Associate Professor and PhD Supervisor at the School of Physics, Southeast University, working on condensed matter theory and computation."
       homeInfoParams:
-        # 英文首页标题 # (填写) 
-        Title: "姓名 / Your Name"
-        # 英文首页自我介绍，markdown格式 # (填写) 
+        Title: "Ming An / 安明"
         Content: |
-          (Example 2) I am a professor of economics at the University of California, Santa Cruz. I work primarily on economic slack—which includes unemployed workers, unsold goods and services, and idle capacity. I research why slack prevails in almost all markets, why it fluctuates over the business cycle, and how macroeconomic policies should respond to such fluctuations. 
-    # 英文可选菜单
+          **Associate Professor · PhD Supervisor**\
+          School of Physics, Southeast University
+
+          **Research interests:** Condensed matter theory and computation; novel quantum effects in low-dimensional matter; design of multifunctional materials, including ferromagnetic and ferroelectric materials.
     menu:
       main:
-#        - identifier: home
-#          name: Home
-#          pageRef: /
-#          weight: 10
-        - identifier: posts
-          name: Posts
-          pageRef: /posts/
-          weight: 20
+        # - identifier: home
+        #   name: Home
+        #   pageRef: /
+        #   weight: 10
+        # - identifier: posts
+        #   name: Posts
+        #   pageRef: /posts/
+        #   weight: 20
         - identifier: research
           name: Research
           pageRef: /research/
@@ -141,10 +139,10 @@ languages:
           name: Publications
           pageRef: /pubs/
           weight: 40
-    #    - identifier: teaching
-    #      name: Teaching
-    #      pageRef: /teaching/
-    #      weight: 50
+        # - identifier: teaching
+        #   name: Teaching
+        #   pageRef: /teaching/
+        #   weight: 50
         - identifier: about
           name: About
           pageRef: /about/

@@ -1,46 +1,28 @@
 ---
-title: 'About'
-# description: "Desc Text."
-disableHLJS: true # to disable highlightjs
-disableShare: true
-hideSummary: true
-searchHidden: false
-ShowReadingTime: false
-ShowBreadCrumbs: true
-ShowPostNavLinks: false
-ShowWordCount: false
-ShowRssButtonInSectionTermList: false
-UseHugoToc: true
-showToc: false
-TocOpen: false
-draft: false
+title: About
 hidemeta: true
-comments: false
+ShowPostNavLinks: false
 ---
 
-姓名
-: 申中
+**Ming An (安明), Associate Professor and PhD Supervisor**\
+School of Physics, Southeast University
 
-办公室
-: 田家炳楼北楼502
+My research focuses on condensed matter theory and computation. I have published papers in Physical Review B, Physical Review Materials, APL Materials, and other journals.
+
+## Contact
+
+Office
+: Room 108, North Building, School of Physics, Jiulonghu Campus, Southeast University, Jiangning District, Nanjing, China
 
 Email
-: zshen@seu.edu.cn
-  
-详细自我介绍/近况/新闻/动态，最近在做什么，课题组…… 
+: amornɐseu.edu.cn
 
-总之这里可以写一两段话
+## Education and employment
 
-## Experience
+- **June 2008–present**: School of Physics, Southeast University.
+- **September 2003–June 2008**: PhD, Department of Physics, Nanjing University.
+- **September 1999–June 2003**: Bachelor's degree, Department of Physics, Nanjing University.
 
-- 1933 - 1955 Professor, Institute for Advanced Study (Princeton).
-- 1914 - 1932 Member, Prussian Academy of Sciences; Professor, Humboldt University of Berlin.
-- 1912 - 1914 Professor, ETH Zurich.
-- 1909 - 1911 Professor, University of Zurich.
-- 1902 - 1909 Patent Examiner, Swiss Patent Office (Bern).
-
+<!-- Optional section retained; no awards were supplied in the profile.
 ## Selected Awards
-- 2025年10月获研究生至善奖学金(博士组)
-- 2025年5月获国家留学基金委公派博士生奖学金
-- 2025年5月获第八届江苏物理春季学术会议优秀口头报告
-- 2022年12月获硕士研究生国家奖学金
+-->
