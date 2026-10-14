@@ -1,5 +1,6 @@
 title: 安明
 theme: ["PaperMod"]
+baseURL = "https://njamorn.github.io/"
 enableRobotsTXT: true
 enableEmoji: true
 minify:
