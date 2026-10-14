@@ -1,0 +1,9 @@
+{{- $ranked := slice }}
+{{- range . }}
+  {{- $ranked = $ranked | append (dict "number" (int .File.TranslationBaseName) "page" .) }}
+{{- end }}
+{{- $publications := slice }}
+{{- range sort $ranked "number" "desc" }}
+  {{- $publications = $publications | append .page }}
+{{- end }}
+{{- return $publications }}

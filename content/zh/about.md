@@ -1,46 +1,28 @@
 ---
-title: 'About'
-# description: "Desc Text."
-disableHLJS: true # to disable highlightjs
-disableShare: true
-hideSummary: true
-searchHidden: false
-ShowReadingTime: false
-ShowBreadCrumbs: true
-ShowPostNavLinks: false
-ShowWordCount: false
-ShowRssButtonInSectionTermList: false
-UseHugoToc: true
-showToc: false
-TocOpen: false
-draft: false
+title: 关于
 hidemeta: true
-comments: false
+ShowPostNavLinks: false
 ---
 
-姓名
-: 申中
+**安明，副教授，博士生导师**\
+东南大学物理学院
+
+主要研究领域为凝聚态理论与计算，迄今已在 Physical Review B、Physical Review Materials、APL Materials 等期刊上发表多篇论文。
+
+## 联系方式
 
 办公室
-: 田家炳楼北楼502
+: 南京市江宁区东南大学九龙湖校区，物理学院北楼108室
 
-Email
-: zshen@seu.edu.cn
-  
-详细自我介绍/近况/新闻/动态，最近在做什么，课题组…… 
+电子邮箱
+: amorn@seu.edu.cn
 
-总之这里可以写一两段话
+## 教育与工作经历
 
-## Experience
+- **2008年6月至今**：东南大学物理学院。
+- **2003年9月—2008年6月**：南京大学物理系，博士。
+- **1999年9月—2003年6月**：南京大学物理系，学士。
 
-- 1933 - 1955 Professor, Institute for Advanced Study (Princeton).
-- 1914 - 1932 Member, Prussian Academy of Sciences; Professor, Humboldt University of Berlin.
-- 1912 - 1914 Professor, ETH Zurich.
-- 1909 - 1911 Professor, University of Zurich.
-- 1902 - 1909 Patent Examiner, Swiss Patent Office (Bern).
-
-## Selected Awards
-- 2025年10月获研究生至善奖学金(博士组)
-- 2025年5月获国家留学基金委公派博士生奖学金
-- 2025年5月获第八届江苏物理春季学术会议优秀口头报告
-- 2022年12月获硕士研究生国家奖学金
+<!-- Optional section retained; no awards were supplied in the profile.
+## 荣誉与奖励
+-->

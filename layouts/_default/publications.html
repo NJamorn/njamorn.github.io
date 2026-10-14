@@ -11,7 +11,7 @@
   {{- end }}
 </header>
 
-{{- $pubs := union .RegularPages .Sections }}
+{{- $pubs := partial "sort_publications.html" .RegularPages }}
 {{- range $pubs }}
   <article class="archive-entry">
     <h4 class="archive-entry-title">
